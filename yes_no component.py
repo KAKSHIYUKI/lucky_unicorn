@@ -18,20 +18,20 @@ def yes_no(question):
 
 
 # Ask user if they  have played before
-show_instrucions = input("Have you played this game before?").lower()
+show_instructions = input("Have you played this game before?").lower()
 
 # If yes, Output 'program continues'
-if show_instrucions.lower() == "yes":
+if show_instructions.lower() == "yes":
     print("program continues")
 
-elif show_instrucions.lower() == "y":
+elif show_instructions.lower() == "y":
     print("program continues")
 
 # If no output 'Display instructions'
-elif show_instrucions.lower() == "no":
+elif show_instructions.lower() == "no":
     print("Display Instructions")
 
-elif show_instrucions.lower() == "n":
+elif show_instructions.lower() == "n":
     print("Display Instructions")
 
 else:
